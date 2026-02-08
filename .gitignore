@@ -10,15 +10,14 @@ target/
 temp/
 
 # Ignora secrets y configs locales (aquí va tu MySQL!)
-application.properties  # Ignora el file con user/pass
-application-dev.properties  # Si usas profiles
-.env  # Si agregas dotenv para secrets
+application.properties  
+application-dev.properties  
+.env  
 
 # Ignora DB dumps o sensibles
 *.sql
 secrets/
 
 # Ignora OS files
-.DS_Store  # Mac
-Thumbs.db  # Windows
+Thumbs.db  
 
