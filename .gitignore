@@ -1,0 +1,24 @@
+# Ignora target (build artifacts)
+target/
+
+# Ignora IDE files (IntelliJ)
+.idea/
+*.iml
+
+# Ignora logs y temp
+*.log
+temp/
+
+# Ignora secrets y configs locales (aquí va tu MySQL!)
+application.properties  # Ignora el file con user/pass
+application-dev.properties  # Si usas profiles
+.env  # Si agregas dotenv para secrets
+
+# Ignora DB dumps o sensibles
+*.sql
+secrets/
+
+# Ignora OS files
+.DS_Store  # Mac
+Thumbs.db  # Windows
+
