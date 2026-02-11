@@ -36,6 +36,7 @@ text3. Configura DB MySQL:
 
 1. Copia `application.properties.example` a `src/main/resources/application.properties` (ignorado en Git para seguridad).
 2. Llena con tus valores (NO commitees – contiene secrets):
+3. 
 spring.datasource.url=jdbc:mysql://localhost:3306/hospedaje_sierra?useSSL=false&serverTimezone=America/Bogota
 spring.datasource.username=[tu_user_ej_root]
 spring.datasource.password=[tu_password_segura]
@@ -47,7 +48,7 @@ jwt.expiration=86400000  # 24h
 logging.level.org.springframework.security=DEBUG
 text- Razón liberal: Secrets locales – evita leaks. Genera JWT secret fuerte (usa online tool seguro, no hardcode).
 
-3. Si profiles: Crea application-dev.properties para dev.
+4. Si profiles: Crea application-dev.properties para dev.
 
 ## Cómo Correr
 
