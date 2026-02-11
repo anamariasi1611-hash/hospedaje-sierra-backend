@@ -48,7 +48,7 @@ jwt.expiration=86400000  # 24h
 logging.level.org.springframework.security=DEBUG
 text- Razón liberal: Secrets locales – evita leaks. Genera JWT secret fuerte (usa online tool seguro, no hardcode).
 
-4. Si profiles: Crea application-dev.properties para dev.
+5. Si profiles: Crea application-dev.properties para dev.
 
 ## Cómo Correr
 
