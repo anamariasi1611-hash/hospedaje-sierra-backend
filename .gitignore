@@ -14,8 +14,7 @@ application.properties
 application-dev.properties  
 .env  
 
-# Ignora DB dumps o sensibles
-*.sql
+
 secrets/
 
 # Ignora OS files
