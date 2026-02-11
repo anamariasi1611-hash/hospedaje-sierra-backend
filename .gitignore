@@ -17,6 +17,4 @@ application-dev.properties
 
 secrets/
 
-# Ignora OS files
-Thumbs.db  
 
