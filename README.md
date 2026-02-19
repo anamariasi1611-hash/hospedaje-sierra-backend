@@ -1,4 +1,4 @@
-# Hospedaje Sierra Backend
+# Backend
 
 [![Java Version](https://img.shields.io/badge/Java-21-orange)](https://www.oracle.com/java/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.0-green)](https://spring.io/projects/spring-boot) [![Maven](https://img.shields.io/badge/Maven-3.8-blue)](https://maven.apache.org/) [![MySQL](https://img.shields.io/badge/MySQL-8.0-yellow)](https://www.mysql.com/) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
