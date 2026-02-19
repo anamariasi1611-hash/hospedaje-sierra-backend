@@ -2,11 +2,11 @@
 
 [![Java Version](https://img.shields.io/badge/Java-21-orange)](https://www.oracle.com/java/) [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.0-green)](https://spring.io/projects/spring-boot) [![Maven](https://img.shields.io/badge/Maven-3.8-blue)](https://maven.apache.org/) [![MySQL](https://img.shields.io/badge/MySQL-8.0-yellow)](https://www.mysql.com/) [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
-Backend API RESTful para el sistema de gestión hotelera "Hospedaje Sierra". Maneja autenticación JWT, reservas, habitaciones, compras, productos, observaciones y reportes PDF. Desarrollado en Java con Spring Boot para un proyecto formativo SENA.
+Backend API RESTful para el sistema de gestión hotelera. Maneja autenticación JWT, reservas, habitaciones, compras, productos, observaciones y reportes PDF. Desarrollado en Java con Spring Boot para un proyecto formativo SENA.
 
 ## Introducción
 
-Hospedaje Sierra Backend es la capa de servidor para una app de gestión hotelera. Permite a empleados/admin registrar huéspedes, manejar reservas, ventas adicionales y generar informes. Usa JWT para seguridad, JPA para DB, y OpenPDF para reportes.
+Backend es la capa de servidor para una app de gestión hotelera. Permite a empleados/admin registrar huéspedes, manejar reservas, ventas adicionales y generar informes. Usa JWT para seguridad, JPA para DB, y OpenPDF para reportes.
 
 Por qué este proyecto: Cumple con requerimientos de software funcional (CRUD reservas) y no funcional (seguridad, escalabilidad). Es un ejemplo real de API full-stack integrable con frontend React.
 
